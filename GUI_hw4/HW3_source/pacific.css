@@ -1,0 +1,108 @@
+/* 
+Name: Connor McLaughlin
+Student ID: 01372970
+Email: Connor_McLaughlin@student.uml.edu
+CS Login: cmclaugh
+*/
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+/* Body of the website. Set the background to the corect image creates the   */
+/* margin for the site. Establishes a minimum width                          */
+body {
+	background-color: ;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(ptrbackground.jpg);
+
+	margin-left: 10%;
+	margin-right: 10%;
+	min-width: 600px;
+}
+/* The left panel on the homepage to navigate to other websites.             */
+nav ul {
+	padding-top: 15px;
+	font-size: 1.2em;
+	background-color: lightblue;
+	list-style: none;
+	float: left;
+	margin-top: 0px;
+	height: 700px;
+	width: 150px;
+	color: black;
+	font-weight: bold;
+	
+}
+/* The image in the content section. floated left to allow wrapped text and  */
+/* margin-right to add whitespace between the picture and the text           */
+img{
+	float: left;
+	margin-right:30px;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+#wrapper{
+	margin: auto;
+}
+/* The content parts of the website including the image and the main text.   */
+/* Gets rid of the top margin. Adds whitespace between the top and the first */
+/* Header. Set the background color to white and the width to variable so it */
+/* it moves with container. Adds a list-style*/
+#content{
+	margin-top: 0px;
+	padding-left: 220px;
+	padding-top: 15px;
+	background-color: white;
+	width: 79.6%;
+	height: 650px;
+	list-style-image: url(marker.gif);	
+
+}
+/* Set the color for the title of the resort to blue*/
+.resort{
+	color: darkblue;
+	font-weight: bold;
+
+	
+}
+/* Sets the sunset as the background and stretches it to cover the area.     */
+/* Still cant seem to get the top banner to scale with the window size       */
+h1 {
+	margin-bottom: 0;
+	color: white;
+	padding: 10px;
+	background: url(sunset.jpg);
+	background-size: cover;
+
+}
+
+h2 {
+	color: #3399CC;
+
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+
+}
+dt {
+	color: #000033;
+}
+/* Footer with a background set to white to blend in with the content */
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: white;
+	padding-left: 215px;
+	padding-bottom: 1.1%;
+	width: 80.1%;
+	
+}
+

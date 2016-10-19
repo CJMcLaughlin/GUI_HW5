@@ -1,0 +1,132 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+/* MI logo image in the top right corner */
+#MI img {
+   height: 100px;
+   width: 120px;
+   margin-top: 10px;
+   float: left;
+   position:absolute;
+   margin-left: 40px;
+}
+/* McLaughlin Industries Title Header */
+h1 {
+	font-size: 300%;
+	color: darkgreen;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding-left: 80px;
+	padding-bottom: 50px;
+}
+/* Setting padding and background color for the navigation bar on the left */
+nav ul {
+	padding-top: 15px;
+	background-color: lightgreen;
+	list-style: none;
+	float: left;
+	margin-top: 0px;
+	height: 700px;
+	width: 15%;
+	color: darkgreen;
+	font-size: 85%;
+
+}
+
+/* I need to set position to relative so I can put text over it */
+.image1 {
+  position: relative;
+}
+/* Position is absolute so it can sit on top of text. It has a low opacity 
+so you can see through it */
+.bottomleft {
+    position: absolute;
+    bottom: 3px;
+    left: 2%;
+    width: 95.2%;
+    padding-left: 20px;
+    font-size: 200%;
+    background-color: grey;
+    opacity: .6;
+    height:45px;
+    color: black;
+
+
+}
+.indexheader {
+	font-size: 120%;
+	text-decoration: underline;
+
+}
+/* Adjusting the size */
+.image1 img {
+    width: 78%;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}
+/* Setting the margins around the borders */
+body {
+	background-color: #c0e0c6;
+	font-family: Arial, Helvetica, sans-serif;
+
+	margin-left: 10%;
+	margin-right: 10%;
+	max-width: 940px;
+	min-width: 720px;
+
+}
+/* Sets custom background color for the top header. Makes size take up remaining space */
+header{
+	background-color: #aef2b4;
+	padding-top: 10px;
+	width: 100%;
+	height: 110px;
+	float: left;
+	
+}
+#content{
+	width: 900px;
+}
+#hw_index{
+	float: left;
+}
+#person_index{
+	float:left;
+}
+/* Removes ugly lines from links. Sets high priotity z position */
+a {
+	color: darkgreen;
+	text-decoration: none;
+	z-index: 1;
+	position: relative;
+}
+/* Sets the background color to lightgreen and puts border around box */
+p {
+	margin-left: 20px;
+	float:left;
+	width: 75%;
+	padding-left: 10px;
+	padding-top: 15px;
+	background-color: lightgreen;
+	height: 265px;
+	border: double;
+	border-color:darkgreen;
+}
+h1{
+	margin-left: 130px;
+}
+/* opacity of the text on the image again */
+h2{
+	background-color: darkgrey;
+	opacity: .6;
+	z-index: 100;
+	float:left;
+}
+.LTitle {
+	font-size: 110%;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
